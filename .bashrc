@@ -122,6 +122,9 @@ fi
 export DISPLAY=:0
 export LIBGL_ALWAYS_INDIRECT=1
 
+# Setup neovim as editor for terminal commands
+export EDITOR=nvim
+
 # setup for use with powerline
 #if [ -f `which powerline-daemon` ]; then
 #    powerline-daemon -q
