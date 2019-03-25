@@ -1,5 +1,7 @@
 call plug#begin('~/.local/share/nvim/plugged')
     Plug 'ianks/gruvbox'
+    Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
+    Plug 'lervag/vimtex'
 call plug#end()
 " Fundamental settings
     set fileencoding=utf-8
