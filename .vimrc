@@ -10,7 +10,6 @@ call vundle#begin()
     Plugin 'morhetz/gruvbox'
     Plugin 'majutsushi/tagbar'
     Plugin 'powerline/powerline'
-    Plugin 'jalvesaq/Nvim-R'
 call vundle#end()
 "required
 " Fundamentals
