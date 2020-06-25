@@ -137,3 +137,9 @@ export INFOPATH=/usr/local/texlive/2020/texmf-dist/doc/info:$INFOPATH
 #    POWERLINE_BASH_SELECT=1
 #    . /usr/share/powerline/bindings/bash/powerline.sh
 #fi
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+# Use vim key-bindings for bash shell
+set -o vi
+export DOCKER_HOST=tcp://localhost:2375
