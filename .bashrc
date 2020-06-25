@@ -125,6 +125,11 @@ export LIBGL_ALWAYS_INDIRECT=1
 # Setup neovim as editor for terminal commands
 export EDITOR=nvim
 
+# Setup for texlive 2020
+export PATH=/usr/local/texlive/2020/bin/x86_64-linux:$PATH
+export MANPATH=/usr/local/texlive/2020/texmf-dist/doc/man:$MANPATH
+export INFOPATH=/usr/local/texlive/2020/texmf-dist/doc/info:$INFOPATH
+
 # setup for use with powerline
 #if [ -f `which powerline-daemon` ]; then
 #    powerline-daemon -q
